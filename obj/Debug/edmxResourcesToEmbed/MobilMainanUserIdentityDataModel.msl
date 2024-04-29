@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mobilmainandealerModelStoreContainer" CdmEntityContainer="mobilmainandealerEntities">
+    <EntitySetMapping Name="MobilMainanUserIdentityDatas">
+      <EntityTypeMapping TypeName="mobilmainandealerModel.MobilMainanUserIdentityData">
+        <MappingFragment StoreEntitySet="MobilMainanUserIdentityData">
+          <ScalarProperty Name="key" ColumnName="key" />
+          <ScalarProperty Name="value" ColumnName="value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Confluent_ApprovedConsumer">
+      <EntityTypeMapping TypeName="mobilmainandealerModel.Confluent_ApprovedConsumer">
+        <MappingFragment StoreEntitySet="Confluent_ApprovedConsumer">
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="KafkaKey" ColumnName="KafkaKey" />
+          <ScalarProperty Name="Topic" ColumnName="Topic" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
