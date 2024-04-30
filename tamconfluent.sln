@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerToDealerDB", "ConsumerToDealerDB\ConsumerToDealerDB.csproj", "{4CFAA627-055B-4C90-B7A0-715D3FF1013D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerToCoachBase", "ConsumerToCoachBase\ConsumerToCoachBase.csproj", "{DD3EC5EA-6049-43D2-B7DA-19D9D1EA1F80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4CFAA627-055B-4C90-B7A0-715D3FF1013D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CFAA627-055B-4C90-B7A0-715D3FF1013D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CFAA627-055B-4C90-B7A0-715D3FF1013D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3EC5EA-6049-43D2-B7DA-19D9D1EA1F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3EC5EA-6049-43D2-B7DA-19D9D1EA1F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3EC5EA-6049-43D2-B7DA-19D9D1EA1F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3EC5EA-6049-43D2-B7DA-19D9D1EA1F80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
